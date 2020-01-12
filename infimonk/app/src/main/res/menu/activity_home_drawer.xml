@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/legal_paper"
+            android:title="DRS(DELIVERY RUN SHEET)" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/list"
+            android:title="MY TASKS" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/user"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Notifications"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="feedback"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Help"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Logout"
+            android:visible="false" />
+    </group>
+</menu>
